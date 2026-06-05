@@ -1,5 +1,5 @@
 context:
-  version: "0.0.5"
+  version: "0.0.6"
   python_min: "3.12"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/adsorption/adsorption-${{ version }}.tar.gz
-  sha256: ac281a7d7220b14c45b3088b70a12deb2735547848a4305759eb480a5b786a9d
+  sha256: e4aa7ea63362ca85e32b0268181adfab3d154e3d85de7d54af7fd9df69d6898f
 
 build:
   noarch: python
