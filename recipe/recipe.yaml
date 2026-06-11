@@ -7,8 +7,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/a/adsorption/adsorption-${{ version }}.tar.gz
-  sha256: 416c5916283e55ccd984551138a3028f130b754b96f93266a51ee79208d1c89e
+  url: https://github.com/LiuGaoyong/Adsorption/releases/download/v${{ version }}/adsorption-${{ version }}.tar.gz
+  sha256: f1be0f8901e1fd2f7c18413534d473792a5c14a05d584fb1c732bb0100336881
 
 build:
   noarch: python
