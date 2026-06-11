@@ -1,5 +1,5 @@
 context:
-  version: "0.1.1"
+  version: "0.1.2"
   python_min: "3.12"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/LiuGaoyong/Adsorption/releases/download/v${{ version }}/adsorption-${{ version }}.tar.gz
-  sha256: f1be0f8901e1fd2f7c18413534d473792a5c14a05d584fb1c732bb0100336881
+  sha256: fef43f2a06cbe4d4ba2ec60f055fb499915cd0907c748617221c81f957f3d29a
 
 build:
   noarch: python
