@@ -26,7 +26,7 @@ requirements:
     - ase
     - graphatoms >=1.1
     - hydra-core >=1.1
-    - nequip >= 0.16.1
+    - nequip >=0.16.1
     - pytorch
     - ray-default >=2.50
     - ray-tune >=2.50
