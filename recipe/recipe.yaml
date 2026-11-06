@@ -1,5 +1,5 @@
 context:
-  version: "0.1.2"
+  version: "0.2.0"
   python_min: "3.12"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/LiuGaoyong/Adsorption/releases/download/v${{ version }}/adsorption-${{ version }}.tar.gz
-  sha256: fef43f2a06cbe4d4ba2ec60f055fb499915cd0907c748617221c81f957f3d29a
+  sha256: 544ca1cbfffc29b977833b04ef0eb76427a138bf12eef8a25c03f4339a30a0b7
 
 build:
   noarch: python
@@ -22,14 +22,15 @@ requirements:
     - uv-build
   run:
     - python >=${{ python_min }}
-    - array-api-compat
+    - arrayff >=0.0.2
     - ase
-    - graphatoms >=1.1
+    - graphatoms >=3.0
     - hydra-core >=1.1
-    - nequip >=0.16.1
-    - pytorch
-    - ray-default >=2.50
-    - ray-tune >=2.50
+    - joblib
+    - numpy
+    - pyyaml >=6
+    - scikit-learn
+    - scipy
     - typing-extensions
 
 tests:
